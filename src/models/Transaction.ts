@@ -24,8 +24,13 @@ class Transaction {
   @Column('decimal')
   value: number;
 
+  // Referencia à criação da categoria na tabela Transactions com a Categories
   @ManyToOne(() => Category)
   @JoinColumn({ name: 'category_id' })
+  category: Category;
+
+  // Referencia à coluna da tabela
+  @Column()
   category_id: string;
 
   @CreateDateColumn()
