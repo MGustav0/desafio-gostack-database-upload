@@ -30,41 +30,31 @@ Pronto! Agora basta acessar a aplicação à partir do link: http://localhost:33
 
 ## Funções da aplicação
 
+Resultados obtidos pelo [Insomnia](https://insomnia.rest/download/) um software para interação com o backend (API) via HTTP e JSON.
+
 ### Criar transação
  
-|title|value|type|category|
-| -------- | -------- | -------- | -------- |
-|Bicicleta|1500.52|outcome|Esportes|
+<img src="https://github.com/MGustav0/desafio-gostack-database-upload/blob/master/extras/prints/print_create.png"/>
 
 ### Listar transações
  
 Lista as transações e informa o balanço:
 
-#### transactions
-
-|title|value|type|category|
-| -------- | -------- | -------- | -------- |
-|Bicicleta|1500.52|outcome|Esportes|
-
-#### balance
-
-|income|outcome|total|
-| -------- | -------- | -------- |
-|3500|1500.52|1999,48|
+<img src="https://github.com/MGustav0/desafio-gostack-database-upload/blob/master/extras/prints/print_list.png"/>
 
 ### Importar
 
-Importa arquivos do tipo CSV **[neste formato]**(link)
+Importa arquivos do tipo CSV **[neste formato]**(https://github.com/MGustav0/desafio-gostack-database-upload/blob/master/extras/file.csv)
+
+<img src="https://github.com/MGustav0/desafio-gostack-database-upload/blob/master/extras/prints/print_import.png"/>
 
 ### Deletar
 
-Deleta uma transação informando na URL o ID da mesma, como por exemplo:
+Deleta uma transação informando na URL o ID da mesma, como por exemplo: `http://localhost:3333/transactions/id_da_transação`, sem retornar nenhuma informação em JSON, apenas o código HTTP.
 
-`http://localhost:3333/transactions/id_da_transação`
+<img src="https://github.com/MGustav0/desafio-gostack-database-upload/blob/master/extras/prints/print_delete_error.png"/>
 
-## Imagens do Projeto
-
-<img src="Link da Imagem"/>
+Erro gerado por ID de transação errado.
 
 ## :memo: Licença
 
