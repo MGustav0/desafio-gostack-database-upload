@@ -22,6 +22,13 @@ O template original utilizado é o que a Rocketseat dispononibilizou na seguinte
 
 **Dica**: Caso não saiba utilizar repositórios do Github como template, temos um guia no **[FAQ](https://github.com/Rocketseat/bootcamp-gostack-desafios/tree/master/faq-desafios).**
 
+## Pré-requisitos
+
+:warning: [Node](https://nodejs.org/en/download/)
+:warning: [Yarn](https://yarnpkg.com/getting-started/install)
+:warning: [Docker](https://www.docker.com/products/docker-desktop)
+:warning: [PostgreSQL Docker](https://hub.docker.com/_/postgres)
+
 ## Iniciando/Configurando banco de dados
 
 Ter Docker/PostgreSQL instalados.
