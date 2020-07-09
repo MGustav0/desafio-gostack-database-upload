@@ -22,13 +22,6 @@ O template original utilizado é o que a Rocketseat dispononibilizou na seguinte
 
 **Dica**: Caso não saiba utilizar repositórios do Github como template, temos um guia no **[FAQ](https://github.com/Rocketseat/bootcamp-gostack-desafios/tree/master/faq-desafios).**
 
-## Como rodar a aplicação
-
-Agora navegue até a pasta criada e abra no Visual Studio Code, lembre-se de executar o comando `yarn` no seu terminal para instalar todas as dependências.
-
-Pronto! Agora basta acessar a aplicação à partir do link: http://localhost:3333/
-
-
 ## Iniciando/Configurando banco de dados
 
 Ter Docker/PostgreSQL instalados.
@@ -47,6 +40,12 @@ Ter Docker/PostgreSQL instalados.
 2. Acesse com o usuário e senha supracitados.
 3. Crie um Banco de Dados com o nome __gostack_desafio06__.
 4. Crie um Banco de Dados com o nome __gostack_desafio06_tests__.
+
+## Como rodar a aplicação
+
+Agora navegue até a pasta criada e abra no Visual Studio Code, lembre-se de executar o comando `yarn` no seu terminal para instalar todas as dependências.
+
+Pronto! Agora basta acessar a aplicação à partir do link: http://localhost:3333/
 
 ## Como rodar os testes
 
