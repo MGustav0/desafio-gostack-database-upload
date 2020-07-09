@@ -25,7 +25,7 @@ class Transaction {
   value: number;
 
   // Referencia à criação da categoria na tabela Transactions com a Categories
-  @ManyToOne(() => Category)
+  @ManyToOne(() => Category, category => category.transaction, { eager: true })
   @JoinColumn({ name: 'category_id' })
   category: Category;
 
