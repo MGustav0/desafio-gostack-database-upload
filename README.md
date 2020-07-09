@@ -28,6 +28,32 @@ Agora navegue até a pasta criada e abra no Visual Studio Code, lembre-se de exe
 
 Pronto! Agora basta acessar a aplicação à partir do link: http://localhost:3333/
 
+
+## Iniciando/Configurando banco de dados
+
+Ter Docker/PostgreSQL instalados.
+
+### Instalar PostgreSQL via Docker
+
+* `docker run --name postgresBankChallenge -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres`
+* Verificar se a imagem está rodando: `docker ps`
+* Usuário: postgres
+* Senha: docker
+* Acesso pelo terminal: `docker exec -it nome_do_container bash`
+
+### Criar Banco de Dados
+
+1. Instale o DBeaver, ou outro gerenciador de Banco de Dados, ou faça por linha de comando.
+2. Acesse com o usuário e senha supracitados.
+3. Crie um Banco de Dados com o nome __gostack_desafio06__.
+4. Crie um Banco de Dados com o nome __gostack_desafio06_tests__.
+
+## Como rodar os testes
+
+```bash
+yarn test
+```
+
 ## Funções da aplicação
 
 Resultados obtidos pelo [Insomnia](https://insomnia.rest/download/) um software para interação com o backend (API) via HTTP e JSON.
@@ -44,7 +70,7 @@ Lista as transações e informa o balanço:
 
 ### Importar
 
-Importa arquivos do tipo CSV **[neste formato]**(https://github.com/MGustav0/desafio-gostack-database-upload/blob/master/extras/file.csv)
+Importa arquivos do tipo CSV **[neste formato]**(https://github.com/MGustav0/desafio-gostack-database-upload/blob/master/extras/file.csv):
 
 <img src="https://github.com/MGustav0/desafio-gostack-database-upload/blob/master/extras/prints/print_import.png"/>
 
